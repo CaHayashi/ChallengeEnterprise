@@ -1,0 +1,15 @@
+﻿@model Produto
+
+@{ 
+    ViewData["Title"] = "Editar";
+}
+
+<h1> EDITAR PRODUTO </h1>
+
+
+<form asp-action="editar">
+    <div class="form-group">
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" class="form-control" />
+    </div>
+</form>
